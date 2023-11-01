@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Periódico</title>
+</head>
+<body>
+  <h1>Periódico</h1>
+
+  <form id="config-form">
+    <p>Selecciona el tipo de titular:</p>
+    <label>
+      <input type="radio" name="titular" value="politica"> Noticia política
+    </label>
+    <label>
+      <input type="radio" name="titular" value="economica"> Noticia económica
+    </label>
+    <label>
+      <input type="radio" name="titular" value="deportiva"> Noticia deportiva
+    </label>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
